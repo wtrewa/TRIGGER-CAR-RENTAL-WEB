@@ -1,0 +1,223 @@
+
+
+
+
+body{
+    
+}
+
+
+/* anchor tag related thing inside this */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#Navbar{
+    height: 70px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+
+#Navbar >div{
+
+
+
+}
+
+#Navbar >div>img {
+    width: 100px;
+    margin-top: 10px;
+}
+
+
+/* achor tag style */
+
+.anchortag{
+    width: 85%;
+    
+    
+}
+.anchortag ul{
+    list-style-type: none;
+}
+
+.anchortag ul li{
+    float: left;
+    width: 70px;
+    
+    
+   
+    text-align: center;
+    
+}
+
+.anchortag ul li a
+{
+    color: #fff;
+    text-decoration: none;
+    line-height: 70px;
+    font-size: 9px;
+    font-family:Arial, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+   
+}
+.anchortag ul li ul li a{
+    color: #000;
+    
+    text-align: left;
+    display: block;
+    width: 200px;
+    
+   
+    line-height: normal;
+}
+
+.anchortag ul li ul li
+{
+    background-color: #fff;
+    width: 200px;
+    height: 30px;
+    
+    display: none;
+}
+.anchortag ul li a:hover{
+ color: red;
+}
+.anchortag ul li:hover ul li{
+    display: block;
+}
+.anchortag ul li:nth-child(4)
+{
+  width: 14%;
+}
+.anchortag ul li:nth-child(5) {
+    width: 14%;
+}
+.anchortag ul li:nth-child(8) {
+    width: 14%;
+}
+
+
+
+
+/* 2nd red div part */
+.reddiv{
+    height: 300px;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    background-image: linear-gradient(to top, #e1163b, #dd1136, #da0c32, #d6062e, #d20029);
+    bottom: 3px solid red;
+}
+
+/* 3rd car div */
+
+.cardiv{
+    
+    margin: auto;
+    margin-top: 30px;
+    width: 85%;
+}
+.cardiv img{
+width: 100%;
+}
+
+
+.cardiv div:nth-child(2) {
+    position: relative;
+    left: 450px;
+    bottom: 150px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.cardiv div:nth-child(3) {
+    position: relative;
+    left: 450px;
+    bottom: 140px;
+    font-weight: 600;
+    
+    
+}
+.cardiv div:nth-child(4) {
+    position: relative;
+    left: 450px;
+    bottom: 130px;
+    background-color: rgb(186, 9, 39);
+    width: 100px;
+    height: 30px;
+    margin-top: 3px;
+}
+
+.cardiv div:nth-child(4) h1{
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.cardiv div:nth-child(4):hover {
+    border:3px solid red;
+}
+
+.fourth{
+        margin: auto;
+        margin-bottom: 20px;
+        
+        width: 85%;
+}
+
+.fourth div{
+    text-align: end;
+    background-color: rgb(186, 9, 39);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    width: 170px;
+    height: 40px;
+    margin-left:83%;
+    
+    
+    
+}
+
+.fourth div:hover {
+    
+
+box-shadow:rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;;
+
+}
+
+.fourth div h3 {
+ text-align: center;   
+padding-top: 10px;
+}
+
+
+.gridcon{
+   
+    width: 85%;
+    
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+
+}
+
+.gridcon >div{
+    height: 400px;
+    display: grid;
+    font-size: 10px;
+    
+}
+.gridcon>div p{
+    font-size: 20px;
+}
+
+.gridcon > div > img{
+    width: 100%;
+}

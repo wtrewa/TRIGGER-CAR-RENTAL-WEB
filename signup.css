@@ -1,0 +1,70 @@
+body {}
+
+
+/* anchor tag related thing inside this */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#Navbar {
+    height: 70px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#Navbar>div {
+    border: 2px solid red;
+    margin-left: 20px;
+}
+
+#Navbar>div>img {
+    width: 100px;
+    margin-top: 10px;
+}
+
+
+/* achor tag style */
+
+.anchortag {
+    width: 20%;
+    border: 2px solid red;
+    
+
+}
+
+.anchortag ul {
+    list-style-type: none;
+}
+
+.anchortag ul li {
+    float: left;
+    width: 70px;
+
+
+
+    text-align: right;
+
+}
+
+.anchortag ul li a {
+    color: #fff;
+    text-decoration: none;
+    line-height: 70px;
+    font-size: 9px;
+    font-family: Arial, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+.anchortag ul li a:hover{
+background-color: red;
+}
+
+
+
+
+
+
