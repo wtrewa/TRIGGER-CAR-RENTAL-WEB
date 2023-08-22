@@ -238,6 +238,7 @@ nav{
     font-weight: 700;
     display: block;
     margin-top: 10px;
+    color: #efebeb;
 }
 
 .section-3 div{
@@ -250,7 +251,8 @@ nav{
     background-color: rgb(212,0,42);
     position: relative;
     left: 884px;
-    
+    color: white;
+    font-size: medium;
 }
 .section-3 div p:nth-child(1){
     font-size: 2rem;
@@ -264,7 +266,6 @@ nav{
     margin-top: 30px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    border: 1px solid red;
     gap: 20px;
     line-height: 2;
 }
@@ -293,13 +294,12 @@ nav{
     
 }
 #sub-footer-2{
-    border: 2px solid green;
     height: 42px;
     background-color: rgb(102,102,102);
 
 }
 #sub-footer-3{
-    border: 2px solid teal;
+   
     height: 84px;
     background-color: black;
 }
@@ -316,11 +316,122 @@ nav{
     line-height: 2;
 }
 
+.section-5{
+ width: 1112px;
+ margin: auto;
+ margin-top: 50px;
+}
+.section-5>p{
+   font-size: 2rem;
+   font-weight: 900;
+
+}
 
 
 
 
+.grid{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+}
+.grid>div{
+    display: flex;
+    margin-right: 0px 5px;
+}
+.grid div div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.grid div{
+    margin: 5px;
+}
+.grid div div p a{
 
+    text-decoration: none;
+    color: red;
+    font-weight: 700;
+}
+.section-6{
+    width: 1112px;
+    height: 500px;
+    margin: auto;
+    margin-top:50px;
+    margin-bottom: 50px;
+    background-image: url('https://www.avis.com/content/dam/avis/na/us/common/offers/avis-car-sales-suv-hp-tile-1000x440.jpg/jcr:content/renditions/cq5dam.web.1536.1008.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.section-6 > div{
+    width: 555px;
+    height: 304px;
+    background-color: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    color: black;
+    right: 0px;
+    bottom: 0px;
+    
+    
+}
+.section-6 > div h1{
+  font-size: 1.5rem;
+  padding: 10px 20px ;
+  font-weight: 900;
+  line-height: 2;
+}
+.section-6 > div p{
+    padding: 10px 20px; 
+}
+.section-6 > div button{
+    display: block;
+    width: 194px;
+    padding: 10px 20px;
+    background-color: red;
+    margin-left: 20px;
+    font-weight: 500;
+    color: white;
+    
+    
+}
+#sub-footer-3{
+    position: relative;
+    padding-bottom: 10px;
+}
+
+#sub-footer-3 div img{
+    height: 84px;
+    display: inline-block;
+    margin-left:20px;
+}
+#sub-footer-3 div p{
+    
+    margin-left:20px;
+    text-decoration: none;
+    position: absolute;
+    bottom: 15px;
+    left: 75px;
+    
+
+}
+#sub-footer-3 div p a{
+    text-decoration: none;
+    color: #efebeb;
+}
+/* https://www.avis.com/content/dam/avis/na/us/common/offers/Deal_AmazonTestingPhase.jpg/jcr:content/renditions/cq5dam.web.750.750.webp
+
+Get up to 30% off plus 10% back in an Amazon Gift Card*
+
+https://www.avis.com/content/dam/avis/na/us/common/offers/avis-hp-aarp-logo-150x150.jpg/jcr:content/renditions/cq5dam.web.150.150.webp
+
+Learn more about our exclusive offers and savings for AARP members
+
+https://www.avis.com/content/dam/avis/na/us/common/offers/Deal_Veterans_Testing.jpg/jcr:content/renditions/cq5dam.web.150.150.webp
+
+Save up to 35% off PAY NOW rates with Veteran's Advantage
+
+*/
 
 
 
